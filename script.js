@@ -1,8 +1,7 @@
 const { ml5 } = window;
 const classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/LILYnK8KB/model.json", console.log);
 
-// Use the link below instead of "MobileNet" to turn Seefood into Hotdog or not.
-// "https://teachablemachine.withgoogle.com/models/-JrVsmzr/model.json"
+
 
 
 const result = document.querySelector(".result h2");
